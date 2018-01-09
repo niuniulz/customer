@@ -1,0 +1,519 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>列表页--消费者网</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--[if IE 6]>
+	<script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input, dl');
+    </script>
+	<![endif]-->
+	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="js/FengTab.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(function(){
+		$('.navlistmenu li').hover(function(){
+		//设置要进行动画的触点
+		$(this).children('dl').stop().fadeIn();
+		//滑过时，找到当前的子节点'a'并切换成淡入效果
+		},function(){
+		$(this).children('dl').stop().fadeOut();
+		//滑出时，找到当前的子节点'a'并切换成淡出效果
+		});	
+		})
+	</script>
+
+</head>
+
+<body>
+	<div class="top_k">
+		<div class="top">
+			<div class="top_tal">
+				<span class="time">
+				<script language=JavaScript> 
+					<!--
+					var y=new Date();
+					var gy=y.getYear();
+					var dName=new Array("周日","周一","周二","周三","周四","周五","周六");
+					var mName=new Array("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月");
+					document.write(y.getFullYear() +"年"+ mName[y.getMonth()] + y.getDate() + "日"  + "　"  + dName[y.getDay()]);
+					// -->
+				</script>
+				</span>			</div>
+			<div class="time_r">&nbsp;</div>
+			<div class="top_tar">
+				<span class="sethome"><a onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.21cbh.com');" href="javascript:void(0)" target="_self">设为主页</a></span>			</div>
+			<div class="top_lg">
+				<form action="" method="post" name="login" target="_self">
+					账号<input class="inptxt" type="text" name="username">
+					密码<input class="inptxt" type="password" name="pwd">
+					<input class="inpbut" type="submit" name="dosubmit" value="登录">
+					<a href="http://user.21cbh.com/register?redirect=http%3A%2F%2Fwww.21cbh.com%2F" target="_self">注册</a>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="header_k" style="border-bottom:none; height:125px;">
+		<div class="header">
+			<div class="headbar2">
+				<div class="logo" style="width:290px;">
+					<a href="" style="margin-right:0px;">
+						<img src="images/logo.png" alt="消费者网">
+					</a>
+					<span style="font-size:50px; color:#fff; font-family:黑体; font-weight:100;">|访谈</span>
+				</div>
+				<div class="siteso" style="width:647px;">
+					<a href=""><img src="images/list_head.png"></a>
+				</div>
+			</div>
+			<div class="navlist">
+				<ul class="navlistmenu">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="index.html">新闻　<img src="images/traggle.png"></a>
+                        <dl>
+                        	<dt><a href="#">要闻</a></dt>
+							<dt><a href="#">专题</a></dt>
+							<dt><a href="#">访谈</a></dt>
+							<dt><a href="#">热点</a></dt>
+							<dt><a href="#">图片</a></dt>
+							<dt><a href="#">资讯</a></dt>
+                        </dl>
+					</li>
+					<li>
+						<a href="index.html">维权　<img src="images/traggle.png"></a>
+                        <dl>
+                        	<dt><a href="#">投诉</a></dt>
+							<dt><a href="#">调查</a></dt>
+							<dt><a href="#">舆情</a></dt>
+							<dt><a href="#">质检</a></dt>
+                        </dl>
+					</li>
+					<li>
+						<a href="index.html">行业　<img src="images/traggle.png"></a>
+                        <dl>
+                        	<dt><a href="#">网购</a></dt>
+							<dt><a href="#">直销</a></dt>
+							<dt><a href="#">母婴</a></dt>
+							<dt><a href="#">食品</a></dt>
+							<dt><a href="#">家电</a></dt>
+							<dt><a href="#">金融</a></dt>
+							<dt><a href="#">房产</a></dt>
+							<dt><a href="#">汽车</a></dt>
+							<dt><a href="#">健康</a></dt>
+							<dt><a href="#">旅游</a></dt>
+                        </dl>
+					</li>
+					<li>
+						<a href="index.html">消指　<img src="images/traggle.png"></a>
+                        <dl>
+                        	<dt><a href="#">消费提示</a></dt>
+							<dt><a href="#">专家顾问</a></dt>
+							<dt><a href="#">消费课堂</a></dt>
+							<dt><a href="#">电子杂志</a></dt>
+                        </dl>
+					</li>
+				</ul>
+			</div>
+			<div class="siteso">
+				<form action="" method="get">
+					<input type="text" name="s" id="zn" class="ssoinp" value="">
+					<button type="submit" class="ssobut"></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<span class="blank20"></span>
+	<!--主体1-->
+	<div class="mainlist1">
+		<div class="mainlist1left">
+			<a href=""><p class="title">64个新型城镇化试点名单</p></a>
+			<p class="content">
+				湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试强制任强制保险试强制保险试强制保险试强制保险试强制保险试任强制保险强制保险强制保险强制保险强制保险试任强制保险试消费者一旦发旦发旦发旦。<a href="">[详细]</a>
+			</p>
+			<span class="blank30"></span>
+			<p class="share">
+				评论(12)|分享
+			</p>
+			<span class="blank30"></span>
+			<ul>
+				<li><a href=""><img src="images/list_left_03.png"></a></li>
+				<li><a href=""><img src="images/list_left_05.png"></a></li>
+				<li><a href=""><img src="images/list_left_07.png"></a></li>
+			</ul>
+		</div>
+		<div class="mainlist1right">
+			<img src="images/list_right_03.png">
+			<p>64个新型城镇化试点名单</p>
+		</div>
+	</div>
+	<span class="blank20"></span>
+	
+	<div class="layout2">
+        <div class="colL">
+            <div class="bigtitle">
+                <strong style="font-weight:lighter;">
+                <a href="">焦点</a>
+                </strong>
+                <a href="" class="mores"><font color="ee7948">>></font>更多</a>
+            </div>
+        	<span class="blank20"></span>
+            <div class="piece0">           
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <dl class="PicTitleSumlist"> 
+                	 <dd>
+                     	<a href=""><img src="images/jiaodian_03.png"></a>
+                     </dd>                  
+                    <dt>
+                        <a class="titles0" href="">新增长矩阵—2015中国经济大逻辑</a>
+                        <p class="sum">
+                            湖南省长沙市12月正式启动食品安全责任强制保险试点。任强制保险试任强制保险试任强制保险试消费者一旦发旦发旦发旦。						  
+                            <a href="">[详细]</a>
+                        </p>                     
+                        <p class="other">
+                            <span class="ptime">2014-12-24</span>
+                            <span class="pshare">
+                            <!--<a href="" class="wx">36</a>-->
+                            <a href="" target="_self">评论(898)</a>|
+                            <a href="" class="xx" id="comment_">分享</a>
+                            </span>
+                        </p>
+                    </dt>
+                </dl>
+                <span class="blank12"></span>
+                <span class="hline"></span>
+                <span class="blank20"></span>
+                <ul>
+                	<li><a href=""><</a></li>
+                    <li class="hover"><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">></a></li>
+                </ul>
+            </div>
+            <span class="blank20"></span>
+            <div class="hangyedongtai">
+            	<div class="bigtitle">
+                    <strong style="font-weight:lighter;">
+                    <a href="">行业动态</a>
+                    </strong>
+                    <a href="" class="mores"><font color="ee7948">>></font>更多</a>
+                </div>
+                <span class="blank12"></span>
+                <ul class="contentbottom">
+                	<li class="focus">
+                    	<a target="_blank" href="">商务部长：贸易增长目标1.6%</a>
+                    </li>
+                	<li>
+						<a target="_blank" href="">副总理:养老保险缴费偏高黄牛党:新政</a>
+					</li>
+					<li>
+						<a target="_blank" href="">人民日报:不买房是观念进步房地产</a>
+					</li>
+					<li>
+						<a target="_blank" href="">Gucci中国工资仅为国外1/10奢侈品</a>
+					</li>
+					<li>
+						<a target="_blank" href="">Gucci中国工资仅为国外1/10奢侈品</a>
+					</li>
+                </ul>
+            </div>
+            <div class="dianshangzixun">
+            	<div class="bigtitle">
+                    <strong style="font-weight:lighter;">
+                    <a href="">电商资讯</a>
+                    </strong>
+                    <a href="" class="mores"><font color="ee7948">>></font>更多</a>
+            	</div>
+                <span class="blank12"></span>
+                <ul class="contentbottom">
+                	<li class="focus">
+                    	<a target="_blank" href="">商务部长：贸易增长目标1.6%</a>
+                    </li>
+                	<li>
+						<a target="_blank" href="">副总理:养老保险缴费偏高黄牛党:新政</a>
+					</li>
+					<li>
+						<a target="_blank" href="">人民日报:不买房是观念进步房地产</a>
+					</li>
+					<li>
+						<a target="_blank" href="">Gucci中国工资仅为国外1/10奢侈品</a>
+					</li>
+					<li>
+						<a target="_blank" href="">Gucci中国工资仅为国外1/10奢侈品</a>
+					</li>
+                </ul>
+            </div>
+        </div>
+        
+    
+		<div class="colR">
+        	<div class="315zhuan">
+                <div class="bigtitle">
+                    <strong style="font-weight:lighter;">
+                    <a href="">315专题</a>
+                    </strong>
+                    <a href="" class="mores"><font color="ee7948">>></font>更多</a>
+                </div>
+                <div class="layoutcolRtop">
+                    <a href="#"><p class="title">副总理：五险一金占工资50%确实偏高</p></a>
+                    <p class="imgg"><a href=""><img src="images/jiaodian_03.png"></a></p>
+                    <p class="content">消费者一旦发生食品安全事故，每人最高可获25万元赔偿。可获25万元赔偿。<a href="">[详细]</a></p>
+                </div>
+                <span class="hline"></span>
+                <div class="layoutcolRbottom">
+                    <ul>
+                        <li><a href="">武汉、长沙、南昌、合肥四市公积金将可异地</a></li>
+                        <li><a href="">副总理：延迟到63岁还是65岁退休尚需要研究</a></li>
+                        <li><a href="">北京清华附中工地脚手架倒塌 已有10人死亡</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="complaint">
+                <p class="p1"><a href=""><img src="images/tel.png"></a></p>
+                <p class="p2"><a href=""><img src="images/tousu1.png"></a></p>
+                <p class="p3"><a href="">进入</a></p>
+            </div>
+            <span class="blank12"></span>
+            <div class="tousu">
+                <div class="bigtitle">
+                    <strong style="font-weight:lighter;">
+                    <a href="">投诉排行</a>
+                    </strong>
+                </div>
+                <span class="blank12"></span>
+                <ol>
+                    <li><strong>1</strong><a href="">官司| 外滩“地王”官司未了局</a></li>
+                    <li><strong>2</strong><a href="">港股通持续遇冷 上市公司现停牌潮</a></li>
+                    <li><strong>3</strong><a href="">鄂尔多斯高利贷 蒋伟被调查 </a></li>
+                    <li><span>4</span><a href="">卢布暴跌 GDP总量修订 全国经济普</a></li>
+                    <li><span>5</span><a href="">国企改革方案</a></li>
+                    <li><span>6</span><a href="">官司| 外滩“地王”官司未了局</a></li>
+                    <li><span>7</span><a href="">港股通持续遇冷 上市公司现停牌潮</a></li>
+                    <li><span>8</span><a href="">鄂尔多斯高利贷 蒋伟被调查 </a></li>
+                    <li><span>9</span><a href="">卢布暴跌 GDP总量修订 全国经济普</a></li>
+                </ol>
+            </div>
+            <span class="blank20"></span>
+            <div>
+            	<a href=""><img src="images/advs2.png"></a>
+            </div>
+            <span class="blank20"></span>
+            <div class="tupian">
+                <div class="bigtitle">
+                    <strong style="font-weight:lighter;">
+                    <a href="">热点图片</a>
+                    </strong>
+                    <a href="" class="mores"><font color="ee7948">>></font>更多</a>
+                </div>
+                <span class="blank12"></span>
+                <ul>
+                	<li>
+                    	<a href=""><img src="images/photo_11.png" ></a>
+                        <p>警方捣破贩毒集团</p>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/photo_13.png" ></a>
+                        <p>警方捣破贩毒集团</p>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/photo_17.png" ></a>
+                        <p>警方捣破贩毒集团</p>
+                    </li>
+                    <li>
+                    	<a href=""><img src="images/photo_18.png" ></a>
+                        <p>警方捣破贩毒集团</p>
+                    </li>
+                </ul>
+            </div>
+            <span class="blank20"></span>
+            <div class="weixinlist">
+            	<img src="images/weixinart_03.png">
+                <div class="contt">
+                	<img src="images/weixingg.png">
+                    <ul>
+                    	<li>
+                        	<strong>1</strong><span class="wei"></span>
+                            <span class="blank5"></span>
+                            <p>搜索“北京消费者”</p>
+                            <p>微信账号：bjxfz315</p>
+                        </li>
+                        <li>
+                        	<strong>2</strong><span class="wei"></span>
+                            <span class="blank5"></span>
+                            <p>扫描“北京消费者”</p>
+                            <p>微信二维码</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+	<span class="blank20"></span>
+	<div class="footer_k">
+		<span class="blank31"></span>
+		<div class="footer">
+			<div class="footerLeft">
+				<p>Copyright &copy; 2012-1014 Bjxf315.com All Rights Reserved 消费者网版权所有，凡本网专属稿件，未经许可不得转载</p>
+				<p>指导单位：北京市消费者协会 数据支持：北京金鼎影响力市场调查中心</p>
+				<p>本网顾问：全国人大副研究员、中国消法研究会会长、《消法》主要起草人、著名民法专家河山</p>
+				<p>独家经营：北京中轻热点文化传播有限公司</p>
+			</div>
+			<div class="footerRight">
+				<ul>
+					<li><a href=""><img src="images/copy1.png"></a></li>
+					<li><a href=""><img src="images/copy2.png"></a></li>
+					<li><a href=""><img src="images/copy3.png"></a></li>
+					<li><a href=""><img src="images/copy4.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
